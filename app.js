@@ -118,7 +118,7 @@ function keepScore(point) {
   if (score + parseInt(houseScoreNumber.innerText) === 5) {
     // Display the message
     const message = score > parseInt(houseScoreNumber.innerText) ? "Hurray, you won the game!" : "Better luck next time!";
-    alert(message);
+    // alert(message);
 
     // Reset the scores
     score = 0;
@@ -132,7 +132,7 @@ function keepScore(point) {
     // Redirect to the desired page based on the scores
     setTimeout(() => {
       if (score < parseInt(houseScoreNumber.innerText)) {
-        window.location.href = 'BLNT.html';
+        window.location.href = 'index.html';
       } else {
         window.location.href = 'hurray.html';
       }
