@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+
+.container{
+    position: relative;
+    height: 100vh; /* Make the container take up the full height of the viewport*/
+  }
+  
+  body{
+    background-color: #0f0c29; /* Set the background color to dark blue*/
+  }
+  
+  .text{
+    position: absolute;
+    z-index: 1;
+    color: yellow; /* Set the text color to yellow*/
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-weight: bold; /* Make the text bold*/
+    font-size: 4rem; /* Set the font size to 4rem, which is bigger than before*/
+    font-family: 'Barlow Semi Condensed', sans-serif; /* Use Barlow Semi Condensed font*/
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5), -2px -2px 2px rgba(255, 255, 255, 0.5); /* Add some shadows*/
+  }
+  
+  .image{
+    z-index: 0;
+    max-height: 1024px; /* Set a maximum height of 1024 pixels*/
+    width: auto; /* Set width to auto so that it maintains its aspect ratio*/
+    height: auto; /* Set height to auto so that it maintains its aspect ratio*/
+    object-fit: cover; /* Make sure the image covers the entire container without distortion*/
+    padding: 200px; /* Add padding of 200px from all sides*/
+    box-sizing: border-box; /* Include padding in the total width and height*/
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.5)) /* Add some shadows*/
+             -2px -2px 2px rgba(255, 255, 255, 0.5);
+  }
+
+
+  .new-game-button{
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the button horizontally*/
+    padding: 10px 20px;
+    background-color: yellow;
+    color: #0f0c29;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
