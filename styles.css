@@ -7,8 +7,8 @@
   --dark-text: hsl(229, 25%, 31%);
   --score-text: hsl(229, 64%, 46%);
   --outline: hsl(217, 16%, 45%);
-  --bg-grad-1: hsl(214, 47%, 23%);
-  --bg-grad-2: hsl(237, 49%, 15%);
+  --bg-grad-1: #231942;
+  --bg-grad-2: #5e548e;
   --scissors-1: hsl(39, 89%, 49%);
   --scissors-2: hsl(40, 84%, 53%);
   --paper-1: hsl(230, 89%, 62%);
@@ -78,7 +78,7 @@ body {
 
 .rules-list li::before {
   content: '★ ';
-  color: #f00;
+  color: #be95c4;
   margin-right: 0.5rem; /* Add margin to separate the star from the text */
 }
 
@@ -390,7 +390,7 @@ body {
   transform: translateX(-50%); /* Horizontally center the button */
 
   /* Set the background and text color for the normal state */
-  background-color: green   ; /* Dark green background */
+  background-color:  #be95c4  ; /* Dark green background */
   color: var(--white); /* White text */
 
   /* Add padding and rounded corners */
@@ -413,7 +413,7 @@ body {
 
 /* Change the background and box shadow when the button is hovered */
 .new-game-btn:hover {
-  background-color: hsl(229, 25%, 31%); /* Red background */
+  background-color: #5e548e; /* Red background */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35); /* Larger box shadow */
 }
 

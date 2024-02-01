@@ -6,7 +6,7 @@
   }
   
   body{
-    background-color: #0f0c29; /* Set the background color to dark blue*/
+    background-color: #9f86c0; /* Set the background color to dark blue*/
   }
   
   .text{
@@ -42,7 +42,7 @@
     left: 50%;
     transform: translateX(-50%); /* Center the button horizontally*/
     padding: 10px 20px;
-    background-color: yellow;
+    background-color: #5e548e;
     color: #0f0c29;
     font-size: 1.5rem;
     font-weight: bold;
